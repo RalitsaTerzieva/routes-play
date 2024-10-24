@@ -2,6 +2,7 @@ import { RouteObject } from "react-router-dom";
 import Redirect from "../Redirect";
 import First from "./First";
 import Second from "./Second";
+import DetailPage from './DetailPage';
 
 const routes: RouteObject = {
   path: "/details",
@@ -17,6 +18,10 @@ const routes: RouteObject = {
     {
       path: "2",
       element: <Second />,
+    },
+    {
+      path: ":id",
+      element: <DetailPage />,
     },
   ],
 };
