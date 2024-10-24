@@ -1,14 +1,15 @@
-import { RouteObject } from "react-router-dom";
+import { Outlet, RouteObject } from "react-router-dom";
 import Redirect from "../Redirect";
 import First from "./First";
 import Second from "./Second";
 
 const routes: RouteObject = {
-  path: "/two",
+  path: "/products",
+  element: <Outlet />,
   children: [
     {
       index: true,
-      element: <Redirect path="/two/1" />,
+      element: <Redirect path="/products/1" />,
     },
     {
       path: "1",

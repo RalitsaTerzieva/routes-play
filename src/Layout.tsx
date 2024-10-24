@@ -6,9 +6,9 @@ function Layout() {
       <nav>
         <Link to="/">Main</Link>
         <span> | </span>
-        <Link to="/one">One</Link>
+        <Link to="/products">Products</Link>
         <span> | </span>
-        <Link to="/two">Two</Link>
+        <Link to="/details">Details</Link>
       </nav>
       <Outlet />
     </main>
