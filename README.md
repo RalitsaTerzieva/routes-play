@@ -1,6 +1,6 @@
 # Routes-Play App
 
-This project is based on concepts and examples from the book "React and React Native, 5th Edition" published by Packt. The app has been created as a learning and practice tool to explore the topics covered in the book.
+This project is based on concepts and examples from the book [React and React Native](https://github.com/PacktPublishing/React-and-React-Native-5E/tree/main) published by Packt. The app has been created as a learning and practice tool to explore the topics covered in the book.
 
 # Set up
 
