@@ -1,4 +1,8 @@
-# React + TypeScript + Vite
+# Routes-Play App
+
+This project is based on concepts and examples from the book "React and React Native, 5th Edition" published by Packt. The app has been created as a learning and practice tool to explore the topics covered in the book.
+
+# Set up
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
